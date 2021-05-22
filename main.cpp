@@ -40,15 +40,7 @@ void MAX(vector<int> vet)
     cout<<"Endereco: "<<&vet[getIndex]<<endl;
 }
 
-void MOSTRA(int vsize, vector<int> vet, vector<int> *pp)
-{
-    cout<<"\nVetor tem "<<vsize<<" números"<<endl;
-    for(int i = 0; i < vet.size(); i++)
-    {
-        cout<<vet[i]<<"\t";
-    }
-    cout<<"\nEndereco"<<pp<<endl;
-}
+
 
 
 int main(){
