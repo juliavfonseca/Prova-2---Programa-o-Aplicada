@@ -33,6 +33,7 @@ void MAX(vector<int> vet)
             max = vet[i];
             getIndex = i;
         }else{
+
             continue;
         }
     }
